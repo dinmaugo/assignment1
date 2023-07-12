@@ -4,14 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        section{
+            width: 50%;
+            height: 200px;
+            border: 10px solid #e8c;
+            margin: 20px auto;
+        }
+        section:nth-of-type(2){
+            border: 15px dotted green;
+        }
+        section:nth-of-type(3){
+            border-left: 15px groove crimson;
+            border-right: 15px groove crimson;
+            border-bottom: 15px double blue;
+            border-top: 15px double blue;
+        }
+        section:nth-of-type(4){
+            border: 15px ridge crimson;
+            background: -o-linear-gradient(to left,violet 40%, tomato 40%);
+            background: -webkit-linear-gradient(75deg,violet 40%, tomato 40%);
+        }
+        section:nth-of-type(5){
+            border: 15px double green;
+            background: repeating-linear-gradient(to top right, violet 10%,tomato 12%);
+        }
+        section:nth-of-type(6){
+            border: 15px dashed tomato;
+            height: 70vh    ;
+            background: radial-gradient(circle, violet 40%, tomato 40% 60%, green 60% 80%, blue 80%);
+            background-image: url(./images/dog.jpg)
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Projects by Rupgrade Edit</h1>
-    <ol>
-        <li>Better Batter Bakery Website</li>
-        <li>Ovulation tracker app</li>
-        <li>Car fix app</li>
-        <li>Jankara man app</li>
-    </ol>
+    <main>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </main>
+    
 </body>
 </html>
